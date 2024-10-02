@@ -28,16 +28,18 @@ The program will fetch a joke from the selected category and display it in the t
 
 Make sure to install the required Python packages:
 
+```bash
 pip install requests
+````
 
 ## Usage
 
 1.  Run the Python script:
 
+```bash
 python joke\_fetcher.py
-
-3.  You will be prompted to choose a category:
-
+```
+You will be prompted to choose a category:
 Choose a joke category:
 1. Programming
 2. Dark
