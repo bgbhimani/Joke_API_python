@@ -45,9 +45,10 @@ Choose a joke category:
 2. Dark
 3. Christmas
 4. Any
-        
 
-5.  Enter the number corresponding to the category you want, and a joke will be fetched from JokeAPI and displayed.
+**Secret Note:** You can type anything to search for that topic 
+
+Enter the number corresponding to the category you want, and a joke will be fetched from JokeAPI and displayed.
 
 ### Example Output
 
