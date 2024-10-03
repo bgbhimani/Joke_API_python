@@ -37,7 +37,7 @@ pip install requests
 1.  Run the Python script:
 
 ```bash
-python joke\_fetcher.py
+python joke.py
 ```
 You will be prompted to choose a category:
 Choose a joke category:
