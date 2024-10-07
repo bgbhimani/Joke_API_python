@@ -3,11 +3,11 @@ import requests
 base_url = "https://v2.jokeapi.dev/joke"
 
 def get_joke(type):
-    
     url = f"{base_url}/{type}"
     response = requests.get(url)
     if response.status_code == 200:
         # print("Get Connected")
+        print(url)
         joke = response.json()
         if joke["error"] == False:
             print(f"Joke-Id:  {joke["id"]}")
