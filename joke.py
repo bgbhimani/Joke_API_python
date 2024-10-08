@@ -10,7 +10,7 @@ def get_joke(type):
         print(url)
         joke = response.json()
         if joke["error"] == False:
-            print(f"Joke-Id:  {joke["id"]}")
+            print(f'Joke-Id:  {joke["id"]}')
             if joke["type"] == "single":
                 print(joke["joke"])
             else:
